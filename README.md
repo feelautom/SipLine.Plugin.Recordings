@@ -2,14 +2,13 @@
 
 ![SipLine Recordings Preview](assets/preview.png)
 
-
 Official plugin for **SipLine Softphone** to manage call recordings.
 
-## Features
+## 🚀 Features
 * Browse through your call recording history.
 * Built-in audio player for MP3 recordings.
 * Open recording folder directly from the app.
 * Export recordings to external locations.
 
-## Installation
+## 📦 Installation
 Build the project and copy the resulting DLL to the SipLine plugins/ folder.
