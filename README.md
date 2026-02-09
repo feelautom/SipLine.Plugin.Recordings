@@ -1,5 +1,8 @@
 ﻿# SipLine Recordings Plugin
 
+![SipLine Recordings Preview](assets/preview.png)
+
+
 Official plugin for **SipLine Softphone** to manage call recordings.
 
 ## Features
