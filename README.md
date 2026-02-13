@@ -30,3 +30,7 @@ Ce plugin est destiné à être chargé par l'application principale SipLine.
 
 ## 📄 Licence
 Ce projet est sous licence SipLine.
+
+## Author
+
+Built by [FeelAutom](https://feelautom.fr) — contact@feelautom.fr
