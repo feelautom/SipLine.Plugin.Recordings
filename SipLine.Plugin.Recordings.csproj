@@ -32,13 +32,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <!-- Copier vers le dossier plugins après build -->
-  <Target Name="CopyToPluginsFolder" AfterTargets="Build">
-    <ItemGroup>
-      <PluginFiles Include="$(OutputPath)SipLine.Plugin.Recordings.dll" />
-      <PluginFiles Include="$(OutputPath)SipLine.Plugin.Recordings.pdb" Condition="Exists('$(OutputPath)SipLine.Plugin.Recordings.pdb')" />
-    </ItemGroup>
-    <Copy SourceFiles="@(PluginFiles)" DestinationFolder="..\SipLine.UI\bin\$(Configuration)\net9.0-windows10.0.22621.0\plugins\recordings\" />
-  </Target>
-
 </Project>
